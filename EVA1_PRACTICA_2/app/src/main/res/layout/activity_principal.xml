@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <TextView
+        android:id="@+id/TxtVEv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expectativa de vida" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TxtVN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Año de nacimiento:" />
+
+        <EditText
+            android:id="@+id/edT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TxtVRn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Región de nacimiento:" />
+
+        <RadioGroup
+            android:id="@+id/RGN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbRDesa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regiones desarrolladas " />
+
+            <RadioButton
+                android:id="@+id/rbAme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="América Latina" />
+
+            <RadioButton
+                android:id="@+id/rbAsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asia" />
+
+            <RadioButton
+                android:id="@+id/rbAfri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Africa" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TxtVG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genero:" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/RGG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hombre" />
+
+            <RadioButton
+                android:id="@+id/rbM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mujer" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TxtVv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expectativa de vida" />
+
+    <TextView
+        android:id="@+id/TxtVm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha probable de decenso" />
+
+</LinearLayout>
