@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.iowner.eva1_8_recursos_idioma.Principal">
+    tools:context="com.example.vale.eva1_8_recursos_idioma.Principal">
 
     <RadioGroup
         android:id="@+id/radioGroupIdioma"
